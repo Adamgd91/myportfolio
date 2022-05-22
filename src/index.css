@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+@layer base {
+  body {
+    @apply font-[Poppins];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+  li:hover {
+    @apply text-[gold];
+  }
+}
