@@ -16,3 +16,18 @@
     @apply text-[gold];
   }
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(89, 89, 110, 0.617),
+    hsla(242, 2%, 4%, 0.08)
+  );
+}
