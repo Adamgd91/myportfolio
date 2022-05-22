@@ -49,8 +49,8 @@ const NavBar = () => {
         <li className="py-6 text-3xl">Work</li>
         <li className="py-6 text-3xl">Contact</li>
       </ul>
-      {/* Social Icons #####if to big on mobile use hidden lg:flex */}
-      <div className="flex fixed flex-col top-[35%] left-0 bg-[#17405c] rounded-r-md">
+      {/* Social Icons */}
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 bg-[#17405c] rounded-r-md">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
