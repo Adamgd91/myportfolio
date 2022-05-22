@@ -24,7 +24,9 @@ const Home = () => {
         </p>
         <div>
           <button className="text-white border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-[gold] hover:border-none hover:text-black">
-            View Projects
+            <Link to="projects" smooth={true} duration={500}>
+              View Projects
+            </Link>
             <HiArrowNarrowRight className="ml-3" />
           </button>
         </div>
