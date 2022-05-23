@@ -5,9 +5,9 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-100 bg-[#205375]"
+      className="w-full pt-60 pb-60 text-gray-100 bg-[#205375]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[gold] uppercase">
             Projects
@@ -22,8 +22,8 @@ const Projects = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+              <span className="text-2xl font-bold text-white tracking-wider text-center justify-center items-center flex">
+                Coffee Shop Project
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -43,6 +43,17 @@ const Projects = () => {
                   </button>
                 </a>
               </div>
+              <section className="flex justify-center ">
+                <p className="bg-[#ff00005d] rounded-md p-2 font-bold m-2 text-sm">
+                  HTML
+                </p>
+                <p className="bg-[#1100ff5d] rounded-md p-2 font-bold m-2 text-sm">
+                  CSS
+                </p>
+                <p className="bg-[#eeff005d] rounded-md p-2 font-bold m-2 text-sm">
+                  JavaScript
+                </p>
+              </section>
             </div>
           </div>
           <div

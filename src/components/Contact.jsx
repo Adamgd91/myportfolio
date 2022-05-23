@@ -16,11 +16,11 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-100 py-4">
-            Submit form below or send me an email! - agdavidson91@gmail.com
+            Submit form below or send me an email. - agdavidson91@gmail.com
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6]"
+          className=" p-2 bg-[#ccd6f6]"
           type="text"
           placeholder="Name"
           name="name"

@@ -9,7 +9,7 @@ const Home = () => {
       className="w-full h-screen bg-[#205375] tracking-wide leading-10"
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-screen">
         <p className="text-[gold] font-bold text-lg leading-9">
           Hi, my name is
         </p>
@@ -19,17 +19,17 @@ const Home = () => {
         <h2 className="text-2xl sm:text-4xl text-white ">
           I'm a Front End Developer.
         </h2>
-        <p className="text-1xl sm:text-2xl py-4 max-w-[700px] font-normal">
+        <p className="text-1xl sm:text-2xl py-4 max-w-[700px] font-semibold">
           - Designing Front End websites one day at a time! Love learning and
           pushing the boundaries of styling and developing.
         </p>
         <div>
-          <button className="text-white border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-[gold] hover:border-none hover:text-black">
-            <Link to="projects" smooth={true} duration={500}>
+          <Link to="projects" smooth={true} duration={500}>
+            <button className="text-white border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-[gold] hover:border-none hover:text-black">
               View Projects
-            </Link>
-            <HiArrowNarrowRight className="ml-3" />
-          </button>
+              <HiArrowNarrowRight className="ml-3" />
+            </button>
+          </Link>
         </div>
       </div>
     </div>
