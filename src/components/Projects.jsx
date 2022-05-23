@@ -43,14 +43,15 @@ const Projects = () => {
                   </button>
                 </a>
               </div>
-              <section className="flex justify-center ">
-                <p className="bg-[#ff00007e] rounded-md p-2 font-bold m-2 text-sm">
+              <br />{" "}
+              <section className="flex justify-center">
+                <p className="bg-[#ff00007e] rounded-md p-2 font-bold mx-2 mt-10 text-sm">
                   HTML
                 </p>
-                <p className="bg-[#1100ff7f] rounded-md p-2 font-bold m-2 text-sm">
+                <p className="bg-[#1100ff7f] rounded-md p-2 font-bold mx-2 mt-10 text-sm">
                   CSS
                 </p>
-                <p className="bg-[#eeff009b] rounded-md p-2 font-bold m-2 text-sm">
+                <p className="bg-[#eeff009b] rounded-md p-2 font-bold mx-2 mt-10 text-sm">
                   JavaScript
                 </p>
               </section>

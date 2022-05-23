@@ -20,8 +20,8 @@
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 250px;
+  /* background-position: cover; */
+  height: 300px;
 }
 
 .content-div:hover {
