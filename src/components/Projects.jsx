@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full pt-60 pb-60 text-gray-100 bg-[#205375]"
+      className="w-full pt-56 pb-56 text-gray-100 bg-[#205375]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
         <div className="pb-8">
@@ -44,13 +44,13 @@ const Projects = () => {
                 </a>
               </div>
               <section className="flex justify-center ">
-                <p className="bg-[#ff00005d] rounded-md p-2 font-bold m-2 text-sm">
+                <p className="bg-[#ff00007e] rounded-md p-2 font-bold m-2 text-sm">
                   HTML
                 </p>
-                <p className="bg-[#1100ff5d] rounded-md p-2 font-bold m-2 text-sm">
+                <p className="bg-[#1100ff7f] rounded-md p-2 font-bold m-2 text-sm">
                   CSS
                 </p>
-                <p className="bg-[#eeff005d] rounded-md p-2 font-bold m-2 text-sm">
+                <p className="bg-[#eeff009b] rounded-md p-2 font-bold m-2 text-sm">
                   JavaScript
                 </p>
               </section>
