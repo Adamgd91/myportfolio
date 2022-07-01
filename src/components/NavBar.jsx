@@ -9,7 +9,7 @@ import {
 import Certificate from "../assets/AdamDavidsonCertificate.pdf";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
-import Resume from "../assets/AdamDavidsonCertificate.pdf";
+import Resume from "../assets/Resume-Adam-Davidson.pdf";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -141,7 +141,7 @@ const NavBar = () => {
               className="flex justify-between items-center w-full"
               href={Resume}
               target="_blank"
-              download={Resume}
+              download="Adam Davidson's Resume"
             >
               Resume
               <FaFileCsv size={30} />
