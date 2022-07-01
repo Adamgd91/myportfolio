@@ -6,8 +6,10 @@ import {
   FaTimes,
 } from "react-icons/fa";
 
+import Certificate from "../assets/AdamDavidsonCertificate.pdf";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Resume from "../assets/AdamDavidsonCertificate.pdf";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -127,7 +129,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full"
-              href="/https://www.linkedin.com/in/adamgd91/"
+              href="https://www.linkedin.com/in/adamgd91/"
               target="_blank"
             >
               Email
@@ -137,8 +139,9 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex justify-between items-center w-full"
-              href="/https://www.linkedin.com/in/adamgd91/"
+              href={Resume}
               target="_blank"
+              download={Resume}
             >
               Resume
               <FaFileCsv size={30} />
