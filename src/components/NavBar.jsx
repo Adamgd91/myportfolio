@@ -143,7 +143,7 @@ const NavBar = () => {
               target="_blank"
               download="Adam Davidson's Resume"
             >
-              Resume
+              Resumes
               <FaFileCsv size={30} />
             </a>
           </li>
