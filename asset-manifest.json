@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.34826661.css",
-    "main.js": "/myportfolio/static/js/main.204c0884.js",
+    "main.js": "/myportfolio/static/js/main.bf38514b.js",
     "static/media/Resume-Adam-Davidson.pdf": "/myportfolio/static/media/Resume-Adam-Davidson.4874887973429e9095de.pdf",
+    "static/media/GraphQL.png": "/myportfolio/static/media/GraphQL.0fed447ce4ed74374bdb.png",
     "static/media/coffee.png": "/myportfolio/static/media/coffee.2a5663ccacacc62f5aed.png",
     "static/media/AdamDavidsonCertificate.pdf": "/myportfolio/static/media/AdamDavidsonCertificate.501363e250767aac2676.pdf",
     "static/media/react.png": "/myportfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/myportfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/myportfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/myportfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/styled.png": "/myportfolio/static/media/styled.b639d3e3c3540115296e.png",
     "static/media/tailwind.png": "/myportfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/myportfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/jest.png": "/myportfolio/static/media/jest.23770b8c707d5005a9b0.png",
     "static/media/javascript.png": "/myportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/myportfolio/index.html",
     "main.34826661.css.map": "/myportfolio/static/css/main.34826661.css.map",
-    "main.204c0884.js.map": "/myportfolio/static/js/main.204c0884.js.map"
+    "main.bf38514b.js.map": "/myportfolio/static/js/main.bf38514b.js.map"
   },
   "entrypoints": [
     "static/css/main.34826661.css",
-    "static/js/main.204c0884.js"
+    "static/js/main.bf38514b.js"
   ]
 }
