@@ -32,14 +32,14 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto"
               src={Bootstrap}
               alt="Bootstrap icon"
             />
             <p className="my-4">Bootstrap</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Sass} alt="Sass icon" />
             <p className="my-4">Sass</p>
