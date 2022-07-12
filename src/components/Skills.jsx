@@ -1,12 +1,16 @@
 import Bootstrap from "../assets/bootstrap.png";
 import CSS from "../assets/css.png";
+import Firebase from "../assets/firebase.png";
 import Git from "../assets/git.png";
 import Github from "../assets/github.png";
+import Graphql from "../assets/GraphQL.png";
 import HTML from "../assets/html.png";
 import JavaScript from "../assets/javascript.png";
+import Jest from "../assets/jest.png";
 import Nodeimg from "../assets/node.png";
 import Reactimg from "../assets/react.png";
 import Sass from "../assets/sass.png";
+import Styled from "../assets/styled.png";
 import Tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
@@ -60,6 +64,22 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Nodeimg} alt="NodeJS icon" />
             <p className="my-4">NodeJS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Firebase} alt="HTML icon" />
+            <p className="my-4">Firebase</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Graphql} alt="HTML icon" />
+            <p className="my-4">GraphQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Jest} alt="HTML icon" />
+            <p className="my-4">Jest</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Styled} alt="HTML icon" />
+            <p className="my-4">Styled-Components</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Git} alt="Git icon" />
