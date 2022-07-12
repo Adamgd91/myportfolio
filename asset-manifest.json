@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.34826661.css",
-    "main.js": "/myportfolio/static/js/main.bf38514b.js",
+    "main.js": "/myportfolio/static/js/main.133993ae.js",
     "static/media/Resume-Adam-Davidson.pdf": "/myportfolio/static/media/Resume-Adam-Davidson.4874887973429e9095de.pdf",
     "static/media/GraphQL.png": "/myportfolio/static/media/GraphQL.0fed447ce4ed74374bdb.png",
     "static/media/coffee.png": "/myportfolio/static/media/coffee.2a5663ccacacc62f5aed.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/myportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/myportfolio/index.html",
     "main.34826661.css.map": "/myportfolio/static/css/main.34826661.css.map",
-    "main.bf38514b.js.map": "/myportfolio/static/js/main.bf38514b.js.map"
+    "main.133993ae.js.map": "/myportfolio/static/js/main.133993ae.js.map"
   },
   "entrypoints": [
     "static/css/main.34826661.css",
-    "static/js/main.bf38514b.js"
+    "static/js/main.133993ae.js"
   ]
 }
